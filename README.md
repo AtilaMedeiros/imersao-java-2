@@ -51,9 +51,6 @@ Aproveitei a oportunidade para:
 
 Construi uma API REST para expor nosso próprio conteúdo, utilizando ferramentas profissionais como o Spring Framework e um banco de dados NoSQL MongoDb e PostMan.
 
-Aproveitei a oportunidade para:
-
-
 ## 5 Dia
 
  Tornei a aplicação acessível por qualquer pessoa, fazendo o deploy na nuvem em (https://lavor-linguagens.fly.dev/linguagens). 
@@ -75,8 +72,6 @@ Aqui estão algumas imagens da interface do projeto:
 <img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/MongoDb.jpg" width="300">
 <img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/Deploy-Fly.jpg" width="350">
 </div>
-
-
 
 
 ## Agradecimentos
