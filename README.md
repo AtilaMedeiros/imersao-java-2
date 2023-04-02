@@ -1,29 +1,59 @@
-# Projeto de consumo de API de filmes (EM CONSTRUÇÃO)
+# Projeto de consumo de API de filmes
 
-Este projeto foi desenvolvido como parte de uma imersão Java oferecida pela Alura. O objetivo era aprender a usar o Java para consumir uma API externa de filmes, usando as bibliotecas ...
+Este projeto foi desenvolvido como parte de uma #imersãoJava 2 oferecida pela Alura. O objetivo era aprender a usar o Java para consumir uma API externas, criar figurinas a partir dos links das fotos e no final criar nossa propria API com banco de dados MongoDb.
+
+Fizemos um deploy no projeto no seguinte servidor:
 
 ## Sobre a API
 
-A API utilizada neste projeto é a [The Movie Database API](https://developers.themoviedb.org/3), que fornece dados sobre filmes, séries, atores e gêneros. Para usar a API, é necessário se cadastrar no site e obter uma chave de acesso (API key).
+Utilizei as seguintes API de terceiros:
 
-## Funcionalidades do projeto
+   - https://api.nasa.gov/
+   - https://imdb-api.com/
+   - https://linguagens-lavor.fly.dev/linguagens
 
-O projeto permite realizar as seguintes operações:
+Utilizei nossa própria API:
+    -
 
-- Listar os filmes mais populares do momento
-- Buscar filmes por título ou gênero
-- Exibir os detalhes de um filme selecionado, como sinopse, elenco, avaliação e trailer
-- Adicionar ou remover filmes da lista de favoritos
-- Salvar os dados dos filmes favoritos em um banco de dados local usando o Room
+## 1 Dia
 
-## Como executar o projeto
+Construi uma aplicação do zero para consumir a API do IMDb e exibir os filmes mais populares, destacando seus pôsteres e visualizando sua classificação... Tudo isso sem usar nenhuma biblioteca externa!
 
-Para executar o projeto, é necessário ter instalado o Java 11 ou superior e o Android Studio. Depois, siga os seguintes passos:
+Aproveitei a oportunidade para deixar a saída dos dados mais bonitinha: usar emojis com código UTF-8, mostrar a nota do filme como estrelinhas, decorar o terminal com cores, negrito e itálico usando códigos ANSI, e mais!
 
-- Clone o repositório do GitHub: `git clone https://github.com/seu-usuario/projeto-filmes.git`
-- Abra o projeto no Android Studio e aguarde a sincronização do Gradle
-- Crie um arquivo chamado `apikey.properties` na raiz do projeto e adicione a seguinte linha: `API_KEY = "sua-chave-de-acesso"`
-- Execute o projeto em um emulador ou dispositivo físico
+
+## 2 Dia
+
+Nesta segunda aula criei um gerador de figurinhas explorando outras bibliotecas nativas do Java, para que possamos enviar por Whatsapp os nossos filmes preferidos!
+
+Aproveitei a oportunidade para:
+    - Criar diretório de saída das imagens
+    - Centralizar o texto na figurinha
+    - Colocar a fonte Comic Sans ou a Impact, a fonte usada em memes.
+    - Inclui imagem nas figurinhas
+
+## 3 Dia
+
+Consumimos a API da Nasa e incluímos as figurinhas nas fotos.
+
+Aproveitei a oportunidade para:
+    - transformei a class Conteúdo em um record
+    - Criei o extrator de conteúdo para API da Nasa
+    - Criei exceção para o clienteHttp
+    - Alterei alguns "for" para Stream da programação funcional
+    - Criar uma Enum que une, como configurações, a URL da API e o extrator utilizado
+
+
+## 4 Dia
+
+Construi uma API REST para expor nosso próprio conteúdo, utilizando ferramentas profissionais como o Spring Framework e um banco de dados NoSQL MongoDb e PostMan.
+
+Aproveitei a oportunidade para:
+
+
+## 5 Dia
+
+ Tornei a aplicação acessível por qualquer pessoa, fazendo o deploy na nuvem em <https://fly.io/>.
 
 ## Screenshots do projeto
 
@@ -34,6 +64,8 @@ Aqui estão algumas imagens da interface do projeto:
 ![Tela de detalhes](screenshots/details.png)
 ![Tela de favoritos](screenshots/favorites.png)
 
+
+
 ## Agradecimentos
 
-Agradeço à Alura por proporcionar essa imersão Java e aos instrutores e mentores que auxiliaram no desenvolvimento do projeto. Também agradeço à The Movie Database por disponibilizar a API de filmes
+Agradeço à Alura por proporcionar essa imersão Java e aos instrutores e mentores que auxiliaram no desenvolvimento do projeto. 

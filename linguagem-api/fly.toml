@@ -1,6 +1,6 @@
-# fly.toml file generated for linguagens-lavor on 2023-04-02T08:26:08-03:00
+# fly.toml file generated for lavor-linguagens on 2023-04-02T15:11:06-03:00
 
-app = "linguagens-lavor"
+app = "lavor-linguagens"
 kill_signal = "SIGINT"
 kill_timeout = 5
 mounts = []
