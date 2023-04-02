@@ -59,7 +59,8 @@ Aproveitei a oportunidade para:
 
 Aqui estão algumas imagens da interface do projeto:
 
-![API IMDB + Figurinha](https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/senhor-dos-aneis.jpg)
+<!-- ![API IMDB + Figurinha](https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/senhor-dos-aneis.jpg) -->
+<img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/senhor-dos-aneis.jpg" width="48">
 
 
 
