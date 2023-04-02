@@ -70,13 +70,13 @@ Aqui estão algumas imagens da interface do projeto:
 <div>
 <img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/terminal_formatado.jpg" width="250">
 <img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/criando-nossa-API.jpg" width="250">
-<img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/postman.jpg" width="300">
-
+<img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/imagem-docker.jpg" width="250">
 </div>
 <div>
-<img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/MongoDb.jpg" width="300">
+<img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/MongoDb.jpg" width="250">
 <img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/Deploy-Fly.jpg" width="300">
-<img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/imagem-docker.jpg" width="200">
+<img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/postman.jpg" width="300">
+
 </div>
 
 
