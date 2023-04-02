@@ -1,8 +1,7 @@
-# Projeto de consumo de API de filmes
+# Consumindo e criando API com Java
 
 Este projeto foi desenvolvido como parte de uma #imersãoJava 2 oferecida pela Alura. O objetivo era aprender a usar o Java para consumir uma API externas, criar figurinas a partir dos links das fotos e no final criar nossa propria API com banco de dados MongoDb.
 
-Fizemos um deploy no projeto no seguinte servidor:
 
 ## 📙 Sobre a API
 
@@ -13,15 +12,17 @@ Utilizei as seguintes API de terceiros:
 - https://linguagens-lavor.fly.dev/linguagens
 
 Utilizei nossa própria API:
-    -
+
+- https://lavor-linguagens.fly.dev/linguagens
+
 
 ## 1 Dia
 
 Construi uma aplicação do zero para consumir a API do IMDb e exibir os filmes mais populares, destacando seus pôsteres e visualizando sua classificação... Tudo isso sem usar nenhuma biblioteca externa!
 
 Aproveitei a oportunidade para deixar a saída dos dados mais bonitinha usando:
-- emojis com código UTF-8, 
-- mostrar a nota do filme como estrelinhas, 
+- emojis com código UTF-8 
+- mostrar a nota do filme como estrelinhas 
 - decorar o terminal com cores, negrito e itálico usando códigos ANSI, e mais!
 
 
@@ -49,13 +50,13 @@ Aproveitei a oportunidade para:
 
 ## 4 Dia
 
-Construi uma API REST para expor nosso próprio conteúdo, utilizando ferramentas profissionais como o Spring Framework e um banco de dados NoSQL MongoDb e PostMan.
+Construi uma API REST para expor nosso próprio conteúdo, utilizando ferramentas profissionais como o Spring Framework e um banco de dados NoSQL MongoDb e Postman.
 
 ## 5 Dia
 
  Tornei a aplicação acessível por qualquer pessoa, fazendo o deploy na nuvem em https://lavor-linguagens.fly.dev/linguagens. 
 
- Criei ima imagem do projeto linguagens para Mac M1 arquitetura arm64 e hospedei no site https://hub.docker.com/repository/docker/atilamedeiros/linguagemapi/general.
+ Criei uma imagem do projeto linguagens para Mac M1 arquitetura arm64 e hospedei no site https://hub.docker.com/repository/docker/atilamedeiros/linguagemapi/general.
 
 ## Screenshots do projeto
 
