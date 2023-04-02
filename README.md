@@ -4,13 +4,13 @@ Este projeto foi desenvolvido como parte de uma #imersãoJava 2 oferecida pela A
 
 Fizemos um deploy no projeto no seguinte servidor:
 
-## Sobre a API
+## 📙 Sobre a API
 
 Utilizei as seguintes API de terceiros:
 
-   - https://api.nasa.gov/
-   - https://imdb-api.com/
-   - https://linguagens-lavor.fly.dev/linguagens
+- https://api.nasa.gov/
+- https://imdb-api.com/
+- https://linguagens-lavor.fly.dev/linguagens
 
 Utilizei nossa própria API:
     -
@@ -19,7 +19,10 @@ Utilizei nossa própria API:
 
 Construi uma aplicação do zero para consumir a API do IMDb e exibir os filmes mais populares, destacando seus pôsteres e visualizando sua classificação... Tudo isso sem usar nenhuma biblioteca externa!
 
-Aproveitei a oportunidade para deixar a saída dos dados mais bonitinha: usar emojis com código UTF-8, mostrar a nota do filme como estrelinhas, decorar o terminal com cores, negrito e itálico usando códigos ANSI, e mais!
+Aproveitei a oportunidade para deixar a saída dos dados mais bonitinha usando:
+- emojis com código UTF-8, 
+- mostrar a nota do filme como estrelinhas, 
+- decorar o terminal com cores, negrito e itálico usando códigos ANSI, e mais!
 
 
 ## 2 Dia
@@ -27,21 +30,21 @@ Aproveitei a oportunidade para deixar a saída dos dados mais bonitinha: usar em
 Nesta segunda aula criei um gerador de figurinhas explorando outras bibliotecas nativas do Java, para que possamos enviar por Whatsapp os nossos filmes preferidos!
 
 Aproveitei a oportunidade para:
-    - Criar diretório de saída das imagens
-    - Centralizar o texto na figurinha
-    - Colocar a fonte Comic Sans ou a Impact, a fonte usada em memes.
-    - Inclui imagem nas figurinhas
+- Criar diretório de saída das imagens
+- Centralizar o texto na figurinha
+- Colocar a fonte Comic Sans ou a Impact, a fonte usada em memes.
+- Inclui imagem nas figurinhas
 
 ## 3 Dia
 
 Consumimos a API da Nasa e incluímos as figurinhas nas fotos.
 
 Aproveitei a oportunidade para:
-    - transformei a class Conteúdo em um record
-    - Criei o extrator de conteúdo para API da Nasa
-    - Criei exceção para o clienteHttp
-    - Alterei alguns "for" para Stream da programação funcional
-    - Criar uma Enum que une, como configurações, a URL da API e o extrator utilizado
+- transformei a class Conteúdo em um record
+- Criei o extrator de conteúdo para API da Nasa
+- Criei exceção para o clienteHttp
+- Alterei alguns "for" para Stream da programação funcional
+- Criar uma Enum que une, como configurações, a URL da API e o extrator utilizado
 
 
 ## 4 Dia
@@ -53,16 +56,18 @@ Aproveitei a oportunidade para:
 
 ## 5 Dia
 
- Tornei a aplicação acessível por qualquer pessoa, fazendo o deploy na nuvem em <https://fly.io/>.
+ Tornei a aplicação acessível por qualquer pessoa, fazendo o deploy na nuvem em (https://lavor-linguagens.fly.dev/linguagens). 
+
+ Criei ima imagem do projeto linguagens para Mac M1 arquitetura arm64 e hospedei no site (https://hub.docker.com/repository/docker/atilamedeiros/linguagemapi/general)
 
 ## Screenshots do projeto
 
 Aqui estão algumas imagens da interface do projeto:
 
 <div>
-<img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/senhor-dos-aneis.jpg" width="200">
-<img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/batman.jpg" width="200">
-<img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/poderoso-chefao.jpg" width="200">
+<img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/senhor-dos-aneis.jpg" width="250">
+<img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/batman.jpg" width="250">
+<img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/poderoso-chefao.jpg" width="250">
 </div>
 <div>
 <img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/terminal_formatado.jpg" width="300">
