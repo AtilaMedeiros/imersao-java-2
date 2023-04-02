@@ -1,4 +1,5 @@
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.InputStream;
 import java.net.URL;
 import java.util.List;
@@ -22,7 +23,7 @@ public class App {
         var geradora = new GeradorDeFigurinhas();
 
         // If don't exist, create the folder "figurinhas"
-        var diretorio = new File("alura-stickers/figurinhas/");
+        var diretorio = new File("figurinhas/");
         diretorio.mkdir();
 
         // Itera sobre conteudo para criar as figurinhas
@@ -35,13 +36,15 @@ public class App {
                  * ler os dados do arquivo.
                  */
                 InputStream inputStream = new URL(conteudo.urlImagem()).openStream();
+                InputStream imagemSobrepor = new FileInputStream(new File("sobrepor/paulo-silveira.png"));
 
                 // Armazenamos o nome do arquivo em uma variável
-                String nomeArquivo = "alura-stickers/figurinhas/" + conteudo.titulo() + ".png";
+                String nomeArquivo = "figurinhas/" + conteudo.titulo()
+                        + ".png";
 
                 // Com os dados do arquivo de imagem e o nome do arquivo, podemos criar a
                 // figurinha
-                geradora.cria(inputStream, nomeArquivo);
+                geradora.cria(inputStream, nomeArquivo, imagemSobrepor);
 
                 // Formatting terminal font
                 String fundoMagenta = "\u001B[45m";

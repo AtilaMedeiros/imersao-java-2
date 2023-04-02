@@ -12,19 +12,5 @@ public class ExtratorConteudoNasa implements ExtratorConteudo {
                 .map(atributo -> new Conteudo(atributo.get("title"), atributo.get("url")))
                 .toList();
 
-        // List<Conteudo> conteudos = new ArrayList<>();
-
-        // // Criando lista de conteudos a partir da listaAtributos
-        // for (Map<String, String> atributo : listaAtributos) {
-
-        // String titulo = atributo.get("title");
-        // String urlImagem = atributo.get("url");
-
-        // Conteudo conteudo = new Conteudo(titulo, urlImagem);
-        // conteudos.add(conteudo);
-
-        // }
-        // return conteudos;
-
     }
 }

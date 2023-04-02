@@ -2,6 +2,7 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.FontMetrics;
 import java.awt.Graphics2D;
+import java.awt.Image;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -12,35 +13,52 @@ import javax.imageio.ImageIO;
 
 public class GeradorDeFigurinhas {
 
-    public void cria(InputStream inputStream, String nomeArquivo) throws IOException {
+    public void cria(InputStream inputStream, String nomeArquivo, InputStream inputStreamSobreposicao)
+            throws IOException {
 
+        // intanciando a imagem na memoria
         BufferedImage imagemOriginal = ImageIO.read(inputStream);
+        BufferedImage imageSobreposicao = ImageIO.read(inputStreamSobreposicao);
 
-        // Create new image in memory with transparency and new size
-        int larguraOriginal = imagemOriginal.getWidth();
-        int alturaOriginal = imagemOriginal.getHeight();
-        int alturaExcedente = 200;
-        int novaAltura = alturaOriginal + alturaExcedente;
+        // Parametros para manipular imagems
+        float larguraOriginal = imagemOriginal.getWidth();
+        float alturaOriginal = imagemOriginal.getHeight();
+        float porcentagemTamanhoFonte = 0.1f;
+        float tamanhoDafonte = alturaOriginal * porcentagemTamanhoFonte;
+        float alturaExcedente = alturaOriginal * 0.25f;
+        float alturaTotal = alturaOriginal + alturaExcedente;
+        float alturaSobreposicao = alturaOriginal * 0.35f;
+        float larguraSobreposicao = alturaSobreposicao * 0.75f;
+        float posicaoSobreporY = 0;
+        if (alturaSobreposicao > alturaExcedente) {
+            posicaoSobreporY = alturaTotal - (alturaExcedente + (alturaSobreposicao - alturaExcedente));
+        } else
+            posicaoSobreporY = alturaTotal - alturaSobreposicao;
 
-        BufferedImage novaImage = new BufferedImage(larguraOriginal, novaAltura, BufferedImage.TRANSLUCENT);
+        // Aplicando novos paramentros na imagem original
+        BufferedImage novaImage = new BufferedImage((int) larguraOriginal, (int) alturaTotal,
+                BufferedImage.TRANSLUCENT);
 
-        // Copy from original image to new image in memory
+        // Desenhando a nova imagem de fundo
         Graphics2D pen = (Graphics2D) novaImage.createGraphics();
         pen.drawImage(imagemOriginal, 0, 0, null);
 
-        // set the font
-        Font font = new Font("Impact", Font.BOLD, 80);
+        Image scaledImageSobreposicao = imageSobreposicao.getScaledInstance(
+                (int) larguraSobreposicao, (int) alturaSobreposicao, Image.SCALE_SMOOTH);
+        pen.drawImage(scaledImageSobreposicao, 0, (int) posicaoSobreporY, null);
+
+        // Configurando a fonte
+        Font font = new Font("Impact", Font.BOLD, (int) tamanhoDafonte);
         pen.setColor(Color.YELLOW);
         pen.setFont(font);
 
-        // Write a sentence on the new image
+        // Parametros para manipular Texto
         String texto = "TOPZERA";
         FontMetrics fontMetrics = pen.getFontMetrics();
         Rectangle2D retangulo = fontMetrics.getStringBounds(texto, pen);
         int larguraTexto = (int) retangulo.getWidth();
-        int alturaTexto = (int) retangulo.getHeight();
-        int posicaoTextoX = (larguraOriginal - larguraTexto) / 2;
-        int posicaoTextoY = alturaOriginal + (alturaExcedente / 2) + (alturaTexto / 2);
+        int posicaoTextoX = (int) (larguraSobreposicao + 20);
+        int posicaoTextoY = (int) ((alturaExcedente * 0.75) + alturaOriginal);
 
         pen.drawString("TOPZERA", posicaoTextoX, posicaoTextoY);
 
