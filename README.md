@@ -53,9 +53,9 @@ Construi uma API REST para expor nosso próprio conteúdo, utilizando ferramenta
 
 ## 5 Dia
 
- Tornei a aplicação acessível por qualquer pessoa, fazendo o deploy na nuvem em (https://lavor-linguagens.fly.dev/linguagens). 
+ Tornei a aplicação acessível por qualquer pessoa, fazendo o deploy na nuvem em https://lavor-linguagens.fly.dev/linguagens. 
 
- Criei ima imagem do projeto linguagens para Mac M1 arquitetura arm64 e hospedei no site (https://hub.docker.com/repository/docker/atilamedeiros/linguagemapi/general)
+ Criei ima imagem do projeto linguagens para Mac M1 arquitetura arm64 e hospedei no site https://hub.docker.com/repository/docker/atilamedeiros/linguagemapi/general.
 
 ## Screenshots do projeto
 
@@ -69,14 +69,15 @@ Aqui estão algumas imagens da interface do projeto:
 <div>
 <img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/terminal_formatado.jpg" width="300">
 <img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/criando-nossa-API.jpg" width="250">
-<img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/MongoDb.jpg" width="300">
-<img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/Deploy-Fly.jpg" width="350">
-
+<img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/imagem-docker.jpg" width="350">
 </div>
 <div>
-<img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/imagem-docker.jpg" width="350">
-
+<img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/MongoDb.jpg" width="300">
+<img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/Deploy-Fly.jpg" width="350">
 </div>
+
+
+
 
 
 ## Agradecimentos
