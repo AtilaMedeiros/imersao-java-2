@@ -59,10 +59,10 @@ Aproveitei a oportunidade para:
 
 Aqui estão algumas imagens da interface do projeto:
 
-![API IMDB + Figurinha](https://github.com/AtilaMedeiros/imersao-java-2/tree/main/fotos_projeto)
-![Tela de busca](screenshots/search.png)
-![Tela de detalhes](screenshots/details.png)
-![Tela de favoritos](screenshots/favorites.png)
+![API IMDB + Figurinha](https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/senhor-dos-aneis.jpg)
+
+
+
 
 
 
