@@ -60,12 +60,13 @@ Aproveitei a oportunidade para:
 Aqui estão algumas imagens da interface do projeto:
 
 <div>
-<img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/senhor-dos-aneis.jpg" width="300">
-<img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/batman.jpg" width="300">
-<img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/criando-nossa-API.jpg" width="300">
+<img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/senhor-dos-aneis.jpg" width="200">
+<img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/batman.jpg" width="200">
+<img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/poderoso-chefao.jpg" width="200">
 </div>
 <div>
 <img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/terminal_formatado.jpg" width="300">
+<img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/criando-nossa-API.jpg" width="300">
 <img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/MongoDb.jpg" width="300">
 <img src="https://github.com/AtilaMedeiros/imersao-java-2/blob/main/fotos_projeto/Deploy-Fly.jpg" width="300">
 </div>
