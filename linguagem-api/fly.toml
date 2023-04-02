@@ -1,10 +1,10 @@
-# fly.toml file generated for lavor-linguagens on 2023-04-02T06:52:03-03:00
+# fly.toml file generated for linguagens-lavor on 2023-04-02T08:26:08-03:00
 
-app = "lavor-linguagens"
+app = "linguagens-lavor"
 kill_signal = "SIGINT"
 kill_timeout = 5
 mounts = []
-primary_region = "gru"
+primary_region = "gig"
 processes = []
 
 [build]
