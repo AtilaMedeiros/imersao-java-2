@@ -8,7 +8,7 @@ public class App {
 
     public static void main(String[] args) throws Exception {
 
-        API api = API.IMDB_TOP_MOVIES;
+        API api = API.NASA;
         String url = api.getUrl();
         ExtratorConteudo extrator = api.getExtrator();
 
@@ -72,14 +72,3 @@ public class App {
     }
 
 }
-// for (Conteudo conteudo : conteudos) {
-
-// InputStream inputStream = new URL(conteudo.urlImagem()).openStream();
-// String nomeArquivo = "saida/" + conteudo.titulo() + ".png";
-
-// geradora.cria(inputStream, nomeArquivo);
-
-// System.out.println(conteudo.titulo());
-// System.out.println();
-
-// }
